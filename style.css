@@ -1,0 +1,103 @@
+h1{
+    text-align: center;
+color: lightseagreen;
+}
+#row1{
+    display: flexbox;
+}
+.color{
+    background: repeating-linear-gradient( to right, yellow, green, blue);
+    height:50vh;
+    width: 30%;
+    margin-left: 2%;
+    border-radius: 5px;
+    display: inline-block;
+}
+.color1{
+    background: repeating-linear-gradient( to bottom, blue ,  green, yellow);
+    height: 50vh;
+    width: 30%;
+    margin-left: 2%;
+    border-radius: 5px;
+    display: inline-block;
+}
+.color5{
+    background: repeating-linear-gradient( to left, green,  blue, yellow);
+    height: 50vh;
+    width: 30%;
+    margin-left: 2%;
+    border-radius: 5px;
+    display: inline-block;
+}
+#row2{
+    display: flexbox;
+}
+.color2{
+    background: conic-gradient( tomato 0% 30%, yellow 30% 60%, darkgray 60% 70% , lightgrey 70% 85%, hotpink 85% 100%);
+    height: 40vh;
+    width: 20%;
+    margin-left: 2%;
+    border-radius: 50%;
+    display: inline-block;
+}
+.color3{
+    background: conic-gradient( tomato 60deg , rgb(41, 118, 218) 90deg, hotpink 210deg);
+    height: 40vh;
+    width: 20%;
+    margin-left: 2%;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+.color4{
+    background: conic-gradient( from 90deg , pink , gray, tan);
+    height: 40vh;
+    width: 20%;
+    margin-left: 2%;
+    border-radius: 50%;
+    display: inline-block;
+}
+.color6{
+     background: conic-gradient( at 60% 40% , teal , saddlebrown, purple);
+     height: 40vh;
+     width: 20%;
+    margin-left: 2%;
+    border-radius: 50%;
+    display: inline-block;
+}
+#row3{
+    display: flexbox;
+}
+.color7{
+    background: repeating-conic-gradient(teal 10% , saddlebrown 20% );
+    height: 40vh;
+    width: 20%;
+   margin-left: 2%;
+   border-radius: 50%;
+   display: inline-block;
+}
+.color8{
+    background: repeating-conic-gradient(palegreen 10% , seagreen 20% );
+    height: 40vh;
+    width: 20%;
+   margin-left: 2%;
+   border-radius: 50%;
+   display: inline-block;
+}
+.color9{
+    background: repeating-conic-gradient(yellow 10% , yellowgreen 20% );
+    height: 40vh;
+    width: 20%;
+   margin-left: 2%;
+   border-radius: 50%;
+   display: inline-block;
+
+}
+.color10{
+    background: repeating-conic-gradient(slateblue 10% , steelblue 20% );
+    height: 40vh;
+    width: 20%;
+   margin-left: 2%;
+   border-radius: 50%;
+   display: inline-block;
+}
